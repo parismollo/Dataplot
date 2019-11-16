@@ -8,3 +8,6 @@ I am a student that is learning, let me know if you find any errors,the code is 
 
 - [x] Matplotlib to make simple plots
 - [x] Bar charts
+- [ ] Distribution
+- [ ] Line Charts
+- [ ] Scatterplots
