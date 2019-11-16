@@ -6,5 +6,5 @@ I am a student that is learning, let me know if you find any errors,the code is 
 
 ## Code
 
-* Matplotlib to make simple plots
-* Bar charts
+- [x] Matplotlib to make simple plots
+- [ ] Bar charts
