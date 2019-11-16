@@ -1,4 +1,4 @@
-# Dataplot <img src="img/logo.png" alt="logo" width="100" heigth=100/>
+<img src="img/logo.png" alt="logo" width="150" heigth=150/>
 
 The purpose of this repository is my self practice of data visualization with python and some libraries. Exercise from the Book "Data Science from Scratch"
 
