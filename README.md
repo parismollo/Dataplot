@@ -1,4 +1,4 @@
-# Dataplot ![project logo](img/logo.png)
+# Dataplot ![project logo](img/logo.png = 70x70)
 
 The purpose of this repository is my self practice of data visualization with python and some libraries. Exercise from the Book "Data Science from Scratch"
 
