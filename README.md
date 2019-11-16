@@ -7,4 +7,4 @@ I am a student that is learning, let me know if you find any errors,the code is 
 ## Code
 
 - [x] Matplotlib to make simple plots
-- [ ] Bar charts
+- [x] Bar charts
