@@ -1,4 +1,4 @@
-# Dataplot
+# Dataplot ![project logo](img/logo.png)
 
 The purpose of this repository is my self practice of data visualization with python and some libraries. Exercise from the Book "Data Science from Scratch"
 
