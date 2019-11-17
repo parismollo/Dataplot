@@ -34,6 +34,36 @@ def plot_grades():
     plt.title("Distribution of Exam grades")
     plt.show()
 
+def plot_line_chart():
+    variance = [1, 2, 4, 8, 16, 32, 64, 128, 256]
+    bias_squared = [256, 128, 64, 32, 16, 8, 4, 2, 1]
+
+    total_error = [x + y for x, y in zip(variance, bias_squared)]
+    xs = [i for i, _ in enumerate(variance)]
+
+    plt.plot(xs, variance, 'g-', label='variance')
+    plt.plot(xs, bias_squared, 'r-', label='bias^2')
+    plt.plot(xs, total_error, 'b:', label='total error')
+    plt.legend(loc=9)
+    plt.xlabel("Model complexity")
+    plt.xticks([])
+    plt.title("Bias Variance Tradeoff")
+    plt.show()
+    
+def plot_scatter():
+    friends = [70, 65, 72, 63, 71, 64, 60, 64, 67]
+    minutes = [175, 170, 205, 120, 220, 130, 105, 145, 190]
+
+    labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
+    plt.scatter(friends, minutes)
+
+    for label, friend_count, minute_count in zip(labels, friends, minutes):
+        plt.annotate(label, xy=(friend_count, minute_count),
+        xytext=(5, -5), textcoords='offset points')
+    plt.title("Daily Minutes vs. Number of Friends")
+    plt.xlabel("# of friends")
+    plt.ylabel("daily minutes spent on the site")
+    plt.show()
 
 if __name__ == "__main__":
     print("You should be using the main file...\nbut here is a taste of this one")
