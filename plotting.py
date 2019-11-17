@@ -20,5 +20,21 @@ def plot_bar():
     plt.ylabel("# of moons")
     plt.xticks(range(len(planets)), planets)
     plt.show()
+
+from collections import Counter
+
+def plot_grades():
+    grades = [83, 95, 91, 87, 70, 0, 85, 82, 100, 67, 73, 77, 0]
+    histogram = Counter(min(grade // 10 * 10, 90) for grade in grades)
+    plt.bar([x + 5 for x in histogram.keys()],histogram.values(), 10, edgecolor=(0, 0, 0))
+    plt.axis([-5, 105, 0, 5])
+    plt.xticks([10 * i for i in range(11)])
+    plt.xlabel("Decile")
+    plt.ylabel("# of students")
+    plt.title("Distribution of Exam grades")
+    plt.show()
+
+
 if __name__ == "__main__":
-    plot_bar()
+    print("You should be using the main file...\nbut here is a taste of this one")
+    plot_grades()
